@@ -1,0 +1,251 @@
+.titulo {
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: 0;
+  padding-bottom: 11px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: auto;
+}
+
+
+
+
+.asideTitulo {
+  border-bottom: 1px solid #e5e5e5;
+  color: #083274;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: normal;
+  margin: 0;
+  padding: 15px;
+  text-transform: uppercase;
+  background: #f5f5f5;
+  border-radius: 3px 3px 0 0;
+}
+
+.mainContainer {
+  background-color: #f5f5f5;
+  margin-top: 25px;
+  padding: 0% 1% 0% 1%;
+  max-width: 1920px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+
+.mainContainer:nth-child(1) {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.containerAside:nth-child(2) {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.containerContent p {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 13px;
+  width: 80%;
+}
+
+.containerContent ul {
+  color: black;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.containerContent {
+  font-family: Montserrat, sans-serif;
+  padding: 40px 0px;
+  background: rgb(255, 255, 255);
+  width: 75%;
+}
+
+.containertexto {
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 0 0 36px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.containerAside {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.block {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 3px 3px 0 0;
+  width: 300px;
+}
+
+.blockContent {
+  width: 100%;
+  border: #004684;
+}
+
+.l1 {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #eaeaea;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.l1 strong {
+  display: flex;
+  align-items: center;
+}
+
+.l2 {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #eaeaea;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.l3 {
+  padding: 10px 0 10px 0;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 260px) and (max-width: 450px) {
+  .container {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  .containerContent p {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 13px;
+    width: 95%;
+  }
+
+  .block {
+    width: 20%;
+    border: 1px solid #eaeaea;
+    border-radius: 3px 3px 0 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+
+  .containerContent {
+    font-family: Montserrat, sans-serif;
+    padding: 40px 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .containerContent p {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 13px;
+    width: 95%;
+  }
+  .block {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 3px 3px 0 0;
+  }
+  .containerAside:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  .containerContent {
+    font-family: Montserrat, sans-serif;
+    padding: 40px 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  .containerContent p {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 13px;
+    width: 95%;
+  }
+  .containerAside:nth-child(2) {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100%;
+    justify-content: center;
+    background: white;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .containerContent {
+    font-family: Montserrat, sans-serif;
+    padding: 40px 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+}

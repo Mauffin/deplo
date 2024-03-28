@@ -1,0 +1,41 @@
+.container {
+  background-color: #004684;
+}
+.contentTitle {
+  margin-top: 60px;
+}
+.content {
+  display: flex;
+  padding: 0 80px 80px 60px;
+  margin: auto;
+  height: 30px;
+  min-height: 30px;
+}
+.line {
+  border-top: 3px solid #f07c27;
+  width: 80px;
+  height: 30px;
+  min-height: 30px;
+}
+.h1 {
+  display: flex;
+  height: 30px;
+  min-height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 15px;
+  color: #fff;
+}
+
+@media (max-width: 1500px) {
+  .content {
+    flex-direction: column;
+  }
+  .line {
+    width: 100%;
+  }
+
+  .content {
+    padding: 0 15px 80px 15px;
+  }
+}

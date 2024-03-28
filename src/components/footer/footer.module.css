@@ -1,0 +1,124 @@
+.footer {
+  background-color: #004684;
+  width: 100%;
+  padding-top: 50px;
+  max-width: 1920px;
+}
+
+.containerInformacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.containerInteres ul li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.containerContacto ul li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.containerContacto ul li address {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  gap: 10px;
+  color: white;
+}
+
+.containerContacto ul li{
+  color: white;
+}
+
+.hoverFooter:hover {
+  color: #f07c27;
+  cursor: pointer;
+  transition: color 0.4s;
+}
+
+.contenedor-image {
+  display: flex;
+  align-items: center;
+}
+
+.BottomFooter {
+  text-align: center;
+  border-top: 1px solid;
+  border-color: #7c4014;
+  color: #999999;
+  padding: 10px;
+}
+
+.MuiSvgIcon {
+  color: #f07c27;
+}
+
+.seccionH4Footer {
+  color: #f07c27;
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+  .containerInformacion {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 5px;
+  }
+  .containerInteres {
+    width: 200px;
+  }
+  .containerContacto {
+    width: 200px;
+  }
+  .contenedorImage {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .containerInformacion {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .containerInteres {
+    width: 300px;
+  }
+
+  .containerContacto {
+    width: 350px;
+  }
+  .contenedorImage {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .containerInformacion {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .containerContacto {
+    width: 400px;
+  }
+  .contenedorImage {
+    padding: 50px;
+  }
+}

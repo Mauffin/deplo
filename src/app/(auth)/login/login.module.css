@@ -1,0 +1,114 @@
+.mainContainer{
+  min-height: 400px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 1920px;
+}
+.container{
+  width: 100%;
+  padding: 0% 1% 0% 1%;
+  height: 518px;
+  max-width: 1920px;
+}
+
+.login{
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #e5e5e5;
+  margin: 15px 0px 0px;
+  overflow: hidden;
+  padding: 25px 25px 0;
+  max-width: 600px;
+  margin: auto;
+  overflow: inherit;
+}
+
+.title{
+  border-bottom: 1px solid #e5e5e5;
+  letter-spacing: 1px;
+  margin: -25px -25px 0px;
+  padding: 25px 25px 20px;
+  text-transform: uppercase;
+  background: #f9f9f9;
+}
+
+.title h2{
+  font-size: 20px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.content{
+  margin-top: 8px;
+  padding-top: 12px;
+}
+
+.inputWraper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.inputText{
+  border: 1px solid #00000024;
+  border-radius: 10px ;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  outline: none;
+  margin-bottom: 10px;
+
+}
+
+
+.button{
+  background-color: #004684;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  outline: none;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.button:hover{
+  background-color: chocolate;
+  transition: 0.4s;
+}
+.forgotpassword{
+  display:flex;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+
+.forgotpassword a{
+  color: #007AFF;
+  border:none;
+  background-color: #ffffff;
+  font-size: 14px;
+ 
+}
+
+.register{
+  color:black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.register a {
+  color: #007AFF;
+  font-family: sans-serif;
+  font-size: 14px;
+ 
+}
